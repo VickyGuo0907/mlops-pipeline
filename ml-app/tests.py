@@ -1,7 +1,7 @@
 import pandas as pd 
 import requests 
 
-df = pd.read_csv("../experiment-tracking/kc_house_data.csv")
+df = pd.read_csv("../experiment-tracking/sources/experiment-1/kc_house_data.csv")
 
 # choose features
 features = ["bedrooms","bathrooms","sqft_living","sqft_above","grade",
